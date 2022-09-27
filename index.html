@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando Com Formulários</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="exerciciocentral">
+        <h1>Exercicio 12 - Cadastre um Jogador</h1>
+        <hr>
+
+        <h2>Cadastrar um jogador</h2>
+
+        <form id="jogadorForm">
+            <label for="fullname">Nome do Jogador</label>
+            <input type="text" name="fullname" id="fullname">
+            <label for="numberplayer">Numero do Jogador</label>
+            <input type="text" name="numberplayer" id="numberplayer"> <br> <br>
+
+            <label>Jogadores: </label><br>
+            <button id="addPlayerBtn" type="button">Cadastrar Jogador</button>
+            <ul id="positionInput"></ul>
+            <br>
+            <button class="convocarbtn " type="submit">Convocar</button>
+            <!--EXERCICIO INSPIRADO NA AULA DO FULLSTACK JS-->
+        </form>
+    </section>
+</body>
+
+</html>
